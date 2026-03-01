@@ -5,6 +5,7 @@ import configuration from './config/configuration';
 import { AuthModule } from './modules/auth/auth.module';
 import { UsersModule } from './modules/users/users.module';
 import { ChatbotModule } from './modules/chatbot/chatbot.module';
+import { ChatModule } from './modules/chat/chat.module';
 
 @Module({
   imports: [
@@ -22,6 +23,7 @@ import { ChatbotModule } from './modules/chatbot/chatbot.module';
     AuthModule,
     UsersModule,
     ChatbotModule,
+    ChatModule,
   ],
 })
 export class AppModule {}

@@ -14,7 +14,7 @@ export class Chatbot {
   @Prop({ required: true, trim: true })
   instructions: string;
 
-  @Prop({ default: 'llama3-8b-8192' })
+  @Prop({ default: 'llama-3.3-70b-versatile' })
   model: string;
 
   @Prop({ default: true })
